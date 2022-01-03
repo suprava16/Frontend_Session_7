@@ -1,16 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  <form action="" method="post">
+  <form action="" method="post" enctype="multipart/form-data">
     <div>
-      <input type="text"  value="" maxlength="4" size="7" name="username" placeholder="enter name">
+      <input type="text" value="" maxlength="" size="" name="username" placeholder="enter name">
+    </div>
+    <div>
+      <input type="email" placeholder="enter email">
+    </div>
+    <div>
+      <input type="password" placeholder="enter password">
+    </div>
+    <div>
+      <input type="date">
+    </div>
+    <div>
+      <textarea cols="20" rows="5"></textarea>
+    </div>
+    <div>
+      <select name="">
+        <option>Choose one option</option>
+        <option value="opt1">option 1</option>
+        <option value="opt2">option 2</option>
+        <option>option 3</option>
+        <option>option 4</option>
+        <option>option 5</option>
+        <option>option 6</option>
+      </select>
+
+      <select>
+        <optgroup label="first options">
+          <option value="opt1">option 1</option>
+          <option value="opt2">option 2</option>
+          <option>option 3</option>
+          <option selected>option 4</option>
+          <option>option 5</option>
+          <option>option 6</option>
+        </optgroup>
+        <optgroup label="second options">
+          <option value="opt1">option 1</option>
+          <option value="opt2">option 2</option>
+          <option>option 3</option>
+          <option>option 4</option>
+          <option>option 5</option>
+          <option>option 6</option>
+        </optgroup>
+
+      </select>
+
+    </div>
+
+    <div>
+      Select your Gender
+      <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female
+      <input type="radio" name="gender">Other
+    </div>
+    <div>
+      select your hobbies
+      <input type="checkbox">Dancing
+      <input type="checkbox">singing
+      <input type="checkbox">crafting
+
+    </div>
+    <div>
+      Choose a file
+      <input type="file" multiple>
+    </div>
+    <div>
+      <input type="submit" value="Register">
+      <button type="submit">ADD</button>
+      <input type="reset" value="RESET">
     </div>
   </form>
 </body>
+
 </html>
