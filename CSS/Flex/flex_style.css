@@ -1,0 +1,18 @@
+.container{
+  background-color: chocolate;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around /space-between/space-evenly/flex-start/flex-end/center; */
+  /* align-items: flex-end;
+  height: 600px; */
+
+  flex-wrap: nowrap;
+
+}
+.item{
+  width: 900px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: crimson;
+  border: 2px solid white;
+}
