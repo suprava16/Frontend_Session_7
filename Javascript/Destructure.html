@@ -12,27 +12,19 @@
       fname:"suprava",
       lname:"padhi",
       email:"suprava@gmail.com",
-      age:"27",
-      hobbies:["Dancing","singing","crafting"],
+      age:27,
       address:{
         city:"bbsr",
         state:"odisha",
       },
-      fullName: function(){
-        // console.log(this)
-        return this.fname + this.lname 
-      }
-      // fullName: ()=>{
-      //   return obj.fname+obj.lname
-      // }
     }
-  //document.write(obj.email)
-   // document.write(obj)
-    // console.log(obj)
-    // document.write(obj.hobbies[1])
-    // document.write(obj.address.state)
-    document.write(obj.fullName())
+    const {fname,lname,age,email}=obj
+    const{city,state}=obj.address
 
+    document.write(fname)
+    document.write(email)
+    document.write(city)
+    document.write(age)
   </script>
 </body>
 </html>
